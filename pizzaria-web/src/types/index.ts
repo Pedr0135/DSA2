@@ -20,6 +20,9 @@ export interface Produto {
   tamanhos: ProdutoTamanho[]
   destaque: boolean
   ativo: boolean
+  avaliacao?: number
+  tempoPreparo?: number
+  ingredientes?: string[]
 }
 
 export interface ItemCarrinho {

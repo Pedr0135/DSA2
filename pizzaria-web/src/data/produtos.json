@@ -3,7 +3,115 @@
     "id": 1,
     "categoriaId": 1,
     "nome": "Margherita",
-    "descricao": "Molho de tomate artesanal, mussarela de búfala, tomate cereja e manjericão fresco.",
+    "descricao": "Clássica italiana com molho de tomate San Marzano, mussarela de búfala fresca, tomate cereja e manjericão colhido na hora.",
+    "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 32.90 },
+      { "tamanho": "MEDIA",   "preco": 42.90 },
+      { "tamanho": "GRANDE",  "preco": 52.90 },
+      { "tamanho": "FAMILIA", "preco": 62.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 25,
+    "ingredientes": ["Molho San Marzano", "Mussarela de búfala", "Tomate cereja", "Manjericão fresco", "Azeite extravirgem"]
+  },
+  {
+    "id": 2,
+    "categoriaId": 1,
+    "nome": "Calabresa",
+    "descricao": "Generosa camada de calabresa artesanal fatiada sobre molho de tomate caseiro, mussarela e cebola roxa caramelizada.",
+    "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 34.90 },
+      { "tamanho": "MEDIA",   "preco": 44.90 },
+      { "tamanho": "GRANDE",  "preco": 54.90 },
+      { "tamanho": "FAMILIA", "preco": 64.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 25,
+    "ingredientes": ["Molho de tomate caseiro", "Mussarela", "Calabresa artesanal", "Cebola roxa", "Orégano"]
+  },
+  {
+    "id": 3,
+    "categoriaId": 1,
+    "nome": "Frango com Catupiry",
+    "descricao": "Frango desfiado temperado com ervas finas, coberto com catupiry original cremoso e finalizado com orégano.",
+    "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 36.90 },
+      { "tamanho": "MEDIA",   "preco": 46.90 },
+      { "tamanho": "GRANDE",  "preco": 56.90 },
+      { "tamanho": "FAMILIA", "preco": 66.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 30,
+    "ingredientes": ["Molho de tomate", "Mussarela", "Frango desfiado", "Catupiry original", "Ervas finas", "Orégano"]
+  },
+  {
+    "id": 4,
+    "categoriaId": 1,
+    "nome": "Portuguesa",
+    "descricao": "Receita tradicional com presunto cozido, ovos, cebola, azeitona preta e pimentão verde sobre molho de tomate.",
+    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 35.90 },
+      { "tamanho": "MEDIA",   "preco": 45.90 },
+      { "tamanho": "GRANDE",  "preco": 55.90 },
+      { "tamanho": "FAMILIA", "preco": 65.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.7,
+    "tempoPreparo": 30,
+    "ingredientes": ["Molho de tomate", "Mussarela", "Presunto cozido", "Ovos", "Cebola", "Azeitona preta", "Pimentão verde"]
+  },
+  {
+    "id": 5,
+    "categoriaId": 1,
+    "nome": "Quatro Queijos",
+    "descricao": "Blend irresistível de mussarela, provolone defumado, parmesão ralado na hora e gorgonzola cremoso.",
+    "imagem": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 37.90 },
+      { "tamanho": "MEDIA",   "preco": 47.90 },
+      { "tamanho": "GRANDE",  "preco": 57.90 },
+      { "tamanho": "FAMILIA", "preco": 67.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 25,
+    "ingredientes": ["Molho de tomate", "Mussarela", "Provolone defumado", "Parmesão", "Gorgonzola"]
+  },
+  {
+    "id": 6,
+    "categoriaId": 1,
+    "nome": "Napolitana",
+    "descricao": "Tomate fresco fatiado, alho laminado, mussarela e manjericão sobre base de molho de tomate artesanal.",
+    "imagem": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 33.90 },
+      { "tamanho": "MEDIA",   "preco": 43.90 },
+      { "tamanho": "GRANDE",  "preco": 53.90 },
+      { "tamanho": "FAMILIA", "preco": 63.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.6,
+    "tempoPreparo": 25,
+    "ingredientes": ["Molho de tomate artesanal", "Mussarela", "Tomate fresco", "Alho laminado", "Manjericão", "Azeite"]
+  },
+  {
+    "id": 7,
+    "categoriaId": 1,
+    "nome": "Mussarela",
+    "descricao": "A clássica de sempre. Molho de tomate caseiro com generosa camada de mussarela derretida e orégano.",
     "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
     "tamanhos": [
       { "tamanho": "PEQUENA", "preco": 29.90 },
@@ -11,45 +119,192 @@
       { "tamanho": "GRANDE",  "preco": 49.90 },
       { "tamanho": "FAMILIA", "preco": 59.90 }
     ],
-    "destaque": true,
-    "ativo": true
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.5,
+    "tempoPreparo": 20,
+    "ingredientes": ["Molho de tomate caseiro", "Mussarela", "Orégano", "Azeite extravirgem"]
   },
   {
-    "id": 2,
-    "categoriaId": 1,
-    "nome": "Calabresa",
-    "descricao": "Molho de tomate, mussarela, calabresa fatiada e cebola roxa.",
+    "id": 8,
+    "categoriaId": 2,
+    "nome": "Costela Defumada",
+    "descricao": "Costela bovina desfiada e defumada lentamente por 6 horas, cebola caramelizada, mussarela e chimichurri da casa.",
     "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "PEQUENA", "preco": 31.90 },
-      { "tamanho": "MEDIA",   "preco": 41.90 },
-      { "tamanho": "GRANDE",  "preco": 51.90 },
-      { "tamanho": "FAMILIA", "preco": 61.90 }
+      { "tamanho": "MEDIA",   "preco": 59.90 },
+      { "tamanho": "GRANDE",  "preco": 74.90 },
+      { "tamanho": "FAMILIA", "preco": 89.90 }
     ],
     "destaque": true,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 5.0,
+    "tempoPreparo": 35,
+    "ingredientes": ["Costela bovina defumada", "Cebola caramelizada", "Mussarela", "Chimichurri da casa", "Pimenta-do-reino"]
   },
   {
-    "id": 3,
-    "categoriaId": 1,
-    "nome": "Frango com Catupiry",
-    "descricao": "Molho de tomate, mussarela, frango desfiado temperado e catupiry original.",
+    "id": 9,
+    "categoriaId": 2,
+    "nome": "Salmão com Cream Cheese",
+    "descricao": "Salmão norueguês defumado, cream cheese, alcaparras, cebola roxa e endro fresco. Sofisticação em cada fatia.",
+    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 64.90 },
+      { "tamanho": "GRANDE",  "preco": 79.90 },
+      { "tamanho": "FAMILIA", "preco": 94.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 30,
+    "ingredientes": ["Salmão norueguês defumado", "Cream cheese", "Alcaparras", "Cebola roxa", "Endro fresco", "Limão-siciliano"]
+  },
+  {
+    "id": 10,
+    "categoriaId": 2,
+    "nome": "Camarão ao Alho",
+    "descricao": "Camarões salteados no azeite com alho dourado, tomate-cereja, mussarela e salsinha fresca. Sabor do mar na sua mesa.",
+    "imagem": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 67.90 },
+      { "tamanho": "GRANDE",  "preco": 82.90 },
+      { "tamanho": "FAMILIA", "preco": 97.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 35,
+    "ingredientes": ["Camarão VG", "Alho dourado", "Tomate-cereja", "Mussarela", "Salsinha fresca", "Azeite extravirgem"]
+  },
+  {
+    "id": 11,
+    "categoriaId": 2,
+    "nome": "Trufada com Cogumelos",
+    "descricao": "Mix de cogumelos frescos (shitake, shimeji e paris), mussarela de búfala, azeite trufado e lascas de parmesão.",
     "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 62.90 },
+      { "tamanho": "GRANDE",  "preco": 77.90 },
+      { "tamanho": "FAMILIA", "preco": 92.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 30,
+    "ingredientes": ["Shitake", "Shimeji", "Cogumelo paris", "Mussarela de búfala", "Azeite trufado", "Parmesão em lascas", "Tomilho"]
+  },
+  {
+    "id": 12,
+    "categoriaId": 2,
+    "nome": "Filé com Gorgonzola",
+    "descricao": "Medalhões de filé mignon grelhados, molho de gorgonzola cremoso, rúcula fresca e tomate-cereja confitado.",
+    "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 69.90 },
+      { "tamanho": "GRANDE",  "preco": 84.90 },
+      { "tamanho": "FAMILIA", "preco": 99.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 40,
+    "ingredientes": ["Filé mignon grelhado", "Molho gorgonzola", "Rúcula fresca", "Tomate-cereja confitado", "Mussarela", "Pimenta-rosa"]
+  },
+  {
+    "id": 13,
+    "categoriaId": 2,
+    "nome": "Pepperoni Americano",
+    "descricao": "Generosas fatias de pepperoni importado, mussarela extra, pimentão vermelho e molho de tomate temperado.",
+    "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 42.90 },
+      { "tamanho": "MEDIA",   "preco": 54.90 },
+      { "tamanho": "GRANDE",  "preco": 66.90 },
+      { "tamanho": "FAMILIA", "preco": 78.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 30,
+    "ingredientes": ["Pepperoni importado", "Mussarela extra", "Pimentão vermelho", "Molho de tomate temperado", "Orégano"]
+  },
+  {
+    "id": 14,
+    "categoriaId": 2,
+    "nome": "Carne Seca com Abóbora",
+    "descricao": "Carne seca desfiada e dessalgada, abóbora assada temperada, catupiry e cebolinha. Sabor nordestino autêntico.",
+    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 57.90 },
+      { "tamanho": "GRANDE",  "preco": 72.90 },
+      { "tamanho": "FAMILIA", "preco": 87.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.7,
+    "tempoPreparo": 35,
+    "ingredientes": ["Carne seca desfiada", "Abóbora assada", "Catupiry", "Cebolinha", "Mussarela", "Azeite"]
+  },
+  {
+    "id": 15,
+    "categoriaId": 3,
+    "nome": "Primavera",
+    "descricao": "Brócolis, cenoura, milho, ervilha, palmito e mussarela sobre molho de tomate fresco. Leve e nutritiva.",
+    "imagem": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
     "tamanhos": [
       { "tamanho": "PEQUENA", "preco": 33.90 },
       { "tamanho": "MEDIA",   "preco": 43.90 },
       { "tamanho": "GRANDE",  "preco": 53.90 },
       { "tamanho": "FAMILIA", "preco": 63.90 }
     ],
-    "destaque": true,
-    "ativo": true
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.6,
+    "tempoPreparo": 25,
+    "ingredientes": ["Molho de tomate fresco", "Mussarela", "Brócolis", "Cenoura", "Milho", "Ervilha", "Palmito"]
   },
   {
-    "id": 4,
-    "categoriaId": 1,
-    "nome": "Portuguesa",
-    "descricao": "Molho de tomate, mussarela, presunto, ovos, cebola e azeitona.",
-    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "id": 16,
+    "categoriaId": 3,
+    "nome": "Rúcula com Tomate Seco",
+    "descricao": "Base de mussarela, rúcula fresca adicionada após o forno, tomate seco, parmesão em lascas e azeite aromatizado.",
+    "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 36.90 },
+      { "tamanho": "MEDIA",   "preco": 46.90 },
+      { "tamanho": "GRANDE",  "preco": 56.90 },
+      { "tamanho": "FAMILIA", "preco": 66.90 }
+    ],
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 25,
+    "ingredientes": ["Mussarela", "Rúcula fresca", "Tomate seco", "Parmesão em lascas", "Azeite aromatizado", "Pimenta-do-reino"]
+  },
+  {
+    "id": 17,
+    "categoriaId": 3,
+    "nome": "Cogumelos ao Pesto",
+    "descricao": "Mix de cogumelos salteados, molho pesto de manjericão artesanal, mussarela de búfala e pinoli tostado.",
+    "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 38.90 },
+      { "tamanho": "MEDIA",   "preco": 48.90 },
+      { "tamanho": "GRANDE",  "preco": 58.90 },
+      { "tamanho": "FAMILIA", "preco": 68.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.7,
+    "tempoPreparo": 30,
+    "ingredientes": ["Molho pesto artesanal", "Mix de cogumelos", "Mussarela de búfala", "Pinoli tostado", "Manjericão fresco"]
+  },
+  {
+    "id": 18,
+    "categoriaId": 3,
+    "nome": "Berinjela com Parmesão",
+    "descricao": "Berinjela grelhada marinada no azeite, molho de tomate caseiro, mussarela, parmesão e manjericão.",
+    "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
     "tamanhos": [
       { "tamanho": "PEQUENA", "preco": 34.90 },
       { "tamanho": "MEDIA",   "preco": 44.90 },
@@ -57,13 +312,34 @@
       { "tamanho": "FAMILIA", "preco": 64.90 }
     ],
     "destaque": false,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.5,
+    "tempoPreparo": 30,
+    "ingredientes": ["Berinjela grelhada", "Molho de tomate caseiro", "Mussarela", "Parmesão", "Manjericão", "Azeite"]
   },
   {
-    "id": 5,
-    "categoriaId": 1,
-    "nome": "Quatro Queijos",
-    "descricao": "Molho de tomate, mussarela, provolone, parmesão e gorgonzola.",
+    "id": 19,
+    "categoriaId": 3,
+    "nome": "Caprese Vegana",
+    "descricao": "Tomate fresco, mussarela vegana de castanha, manjericão, azeite extravirgem e flor de sal. 100% plant-based.",
+    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 37.90 },
+      { "tamanho": "MEDIA",   "preco": 47.90 },
+      { "tamanho": "GRANDE",  "preco": 57.90 },
+      { "tamanho": "FAMILIA", "preco": 67.90 }
+    ],
+    "destaque": false,
+    "ativo": true,
+    "avaliacao": 4.6,
+    "tempoPreparo": 25,
+    "ingredientes": ["Tomate fresco", "Mussarela vegana de castanha", "Manjericão", "Azeite extravirgem", "Flor de sal"]
+  },
+  {
+    "id": 20,
+    "categoriaId": 3,
+    "nome": "Espinafre com Ricota",
+    "descricao": "Espinafre refogado com alho, ricota temperada com ervas, mussarela e nozes tostadas. Nutritiva e deliciosa.",
     "imagem": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
     "tamanhos": [
       { "tamanho": "PEQUENA", "preco": 35.90 },
@@ -72,70 +348,94 @@
       { "tamanho": "FAMILIA", "preco": 65.90 }
     ],
     "destaque": false,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.5,
+    "tempoPreparo": 30,
+    "ingredientes": ["Espinafre refogado", "Ricota temperada", "Mussarela", "Nozes tostadas", "Alho", "Noz-moscada"]
   },
   {
-    "id": 6,
-    "categoriaId": 2,
-    "nome": "Chocolate",
-    "descricao": "Chocolate ao leite derretido, granulado crocante e leite condensado.",
+    "id": 21,
+    "categoriaId": 4,
+    "nome": "Chocolate com Morango",
+    "descricao": "Chocolate ao leite belga derretido, morangos frescos fatiados, leite condensado e granulado crocante.",
     "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "MEDIA",   "preco": 37.90 },
-      { "tamanho": "GRANDE",  "preco": 47.90 },
-      { "tamanho": "FAMILIA", "preco": 57.90 }
+      { "tamanho": "MEDIA",   "preco": 42.90 },
+      { "tamanho": "GRANDE",  "preco": 52.90 },
+      { "tamanho": "FAMILIA", "preco": 62.90 }
     ],
     "destaque": true,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.9,
+    "tempoPreparo": 25,
+    "ingredientes": ["Chocolate ao leite belga", "Morangos frescos", "Leite condensado", "Granulado crocante", "Creme de leite"]
   },
   {
-    "id": 7,
-    "categoriaId": 2,
+    "id": 22,
+    "categoriaId": 4,
     "nome": "Romeu e Julieta",
-    "descricao": "Mussarela cremosa e goiabada especial em perfeita harmonia.",
+    "descricao": "Mussarela cremosa e goiabada especial em perfeita harmonia. A combinação clássica que nunca decepciona.",
     "imagem": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "MEDIA",   "preco": 35.90 },
-      { "tamanho": "GRANDE",  "preco": 45.90 },
-      { "tamanho": "FAMILIA", "preco": 55.90 }
+      { "tamanho": "MEDIA",   "preco": 38.90 },
+      { "tamanho": "GRANDE",  "preco": 48.90 },
+      { "tamanho": "FAMILIA", "preco": 58.90 }
     ],
     "destaque": false,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.7,
+    "tempoPreparo": 20,
+    "ingredientes": ["Mussarela cremosa", "Goiabada especial", "Açúcar de confeiteiro"]
   },
   {
-    "id": 8,
-    "categoriaId": 3,
-    "nome": "Coca-Cola",
-    "descricao": "Refrigerante gelado 350ml.",
-    "imagem": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=600&q=80",
+    "id": 23,
+    "categoriaId": 4,
+    "nome": "Nutella com Banana",
+    "descricao": "Generosa camada de Nutella, banana caramelizada na manteiga, leite condensado e canela. Pura indulgência.",
+    "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "PEQUENA", "preco": 6.00 }
+      { "tamanho": "MEDIA",   "preco": 44.90 },
+      { "tamanho": "GRANDE",  "preco": 54.90 },
+      { "tamanho": "FAMILIA", "preco": 64.90 }
     ],
-    "destaque": false,
-    "ativo": true
+    "destaque": true,
+    "ativo": true,
+    "avaliacao": 5.0,
+    "tempoPreparo": 25,
+    "ingredientes": ["Nutella", "Banana caramelizada", "Leite condensado", "Canela", "Manteiga"]
   },
   {
-    "id": 9,
-    "categoriaId": 3,
-    "nome": "Suco de Laranja",
-    "descricao": "Suco natural de laranja 400ml.",
-    "imagem": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=600&q=80",
+    "id": 24,
+    "categoriaId": 4,
+    "nome": "Prestígio",
+    "descricao": "Chocolate meio amargo, coco ralado tostado, leite condensado e cobertura de chocolate branco. Inspirada no bombom.",
+    "imagem": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "PEQUENA", "preco": 8.00 }
+      { "tamanho": "MEDIA",   "preco": 40.90 },
+      { "tamanho": "GRANDE",  "preco": 50.90 },
+      { "tamanho": "FAMILIA", "preco": 60.90 }
     ],
     "destaque": false,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.8,
+    "tempoPreparo": 25,
+    "ingredientes": ["Chocolate meio amargo", "Coco ralado tostado", "Leite condensado", "Chocolate branco"]
   },
   {
-    "id": 10,
-    "categoriaId": 3,
-    "nome": "Água Mineral",
-    "descricao": "Água mineral sem gás 500ml.",
-    "imagem": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80",
+    "id": 25,
+    "categoriaId": 4,
+    "nome": "Doce de Leite com Nozes",
+    "descricao": "Doce de leite artesanal, nozes tostadas picadas, mussarela e uma pitada de flor de sal para equilibrar.",
+    "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
     "tamanhos": [
-      { "tamanho": "PEQUENA", "preco": 4.00 }
+      { "tamanho": "MEDIA",   "preco": 41.90 },
+      { "tamanho": "GRANDE",  "preco": 51.90 },
+      { "tamanho": "FAMILIA", "preco": 61.90 }
     ],
     "destaque": false,
-    "ativo": true
+    "ativo": true,
+    "avaliacao": 4.7,
+    "tempoPreparo": 25,
+    "ingredientes": ["Doce de leite artesanal", "Nozes tostadas", "Mussarela", "Flor de sal"]
   }
 ]
