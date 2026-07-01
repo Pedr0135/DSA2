@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nome": "Pizzas Salgadas", "icone": "🍕" },
+  { "id": 2, "nome": "Pizzas Doces",    "icone": "🍫" },
+  { "id": 3, "nome": "Bebidas",         "icone": "🥤" },
+  { "id": 4, "nome": "Sobremesas",      "icone": "🍰" }
+]

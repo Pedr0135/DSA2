@@ -1,0 +1,84 @@
+[
+  {
+    "id": "PED-001",
+    "itens": [
+      {
+        "produto": { "id": 1, "nome": "Margherita" },
+        "tamanho": { "tamanho": "GRANDE", "preco": 49.90 },
+        "quantidade": 1
+      },
+      {
+        "produto": { "id": 8, "nome": "Coca-Cola" },
+        "tamanho": { "tamanho": "PEQUENA", "preco": 6.00 },
+        "quantidade": 2
+      }
+    ],
+    "endereco": {
+      "nome": "João Silva",
+      "telefone": "(11) 99999-0001",
+      "logradouro": "Rua das Flores",
+      "numero": "123",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "01310-100",
+      "pagamento": "cartao"
+    },
+    "total": 61.90,
+    "status": "ENTREGUE",
+    "criadoEm": "2024-01-15T18:30:00"
+  },
+  {
+    "id": "PED-002",
+    "itens": [
+      {
+        "produto": { "id": 3, "nome": "Frango com Catupiry" },
+        "tamanho": { "tamanho": "FAMILIA", "preco": 63.90 },
+        "quantidade": 1
+      }
+    ],
+    "endereco": {
+      "nome": "Maria Santos",
+      "telefone": "(11) 99999-0002",
+      "logradouro": "Av. Paulista",
+      "numero": "1000",
+      "bairro": "Bela Vista",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "01310-200",
+      "pagamento": "pix"
+    },
+    "total": 63.90,
+    "status": "EM_PREPARO",
+    "criadoEm": "2024-01-15T19:10:00"
+  },
+  {
+    "id": "PED-003",
+    "itens": [
+      {
+        "produto": { "id": 2, "nome": "Calabresa" },
+        "tamanho": { "tamanho": "GRANDE", "preco": 51.90 },
+        "quantidade": 2
+      },
+      {
+        "produto": { "id": 9, "nome": "Suco de Laranja" },
+        "tamanho": { "tamanho": "PEQUENA", "preco": 8.00 },
+        "quantidade": 2
+      }
+    ],
+    "endereco": {
+      "nome": "Carlos Oliveira",
+      "telefone": "(11) 99999-0003",
+      "logradouro": "Rua Augusta",
+      "numero": "500",
+      "bairro": "Consolação",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "cep": "01305-000",
+      "pagamento": "dinheiro"
+    },
+    "total": 119.80,
+    "status": "RECEBIDO",
+    "criadoEm": "2024-01-15T19:45:00"
+  }
+]

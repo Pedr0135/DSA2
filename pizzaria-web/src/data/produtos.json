@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "categoriaId": 1,
+    "nome": "Margherita",
+    "descricao": "Molho de tomate artesanal, mussarela de búfala, tomate cereja e manjericão fresco.",
+    "imagem": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 29.90 },
+      { "tamanho": "MEDIA",   "preco": 39.90 },
+      { "tamanho": "GRANDE",  "preco": 49.90 },
+      { "tamanho": "FAMILIA", "preco": 59.90 }
+    ],
+    "destaque": true,
+    "ativo": true
+  },
+  {
+    "id": 2,
+    "categoriaId": 1,
+    "nome": "Calabresa",
+    "descricao": "Molho de tomate, mussarela, calabresa fatiada e cebola roxa.",
+    "imagem": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 31.90 },
+      { "tamanho": "MEDIA",   "preco": 41.90 },
+      { "tamanho": "GRANDE",  "preco": 51.90 },
+      { "tamanho": "FAMILIA", "preco": 61.90 }
+    ],
+    "destaque": true,
+    "ativo": true
+  },
+  {
+    "id": 3,
+    "categoriaId": 1,
+    "nome": "Frango com Catupiry",
+    "descricao": "Molho de tomate, mussarela, frango desfiado temperado e catupiry original.",
+    "imagem": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 33.90 },
+      { "tamanho": "MEDIA",   "preco": 43.90 },
+      { "tamanho": "GRANDE",  "preco": 53.90 },
+      { "tamanho": "FAMILIA", "preco": 63.90 }
+    ],
+    "destaque": true,
+    "ativo": true
+  },
+  {
+    "id": 4,
+    "categoriaId": 1,
+    "nome": "Portuguesa",
+    "descricao": "Molho de tomate, mussarela, presunto, ovos, cebola e azeitona.",
+    "imagem": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 34.90 },
+      { "tamanho": "MEDIA",   "preco": 44.90 },
+      { "tamanho": "GRANDE",  "preco": 54.90 },
+      { "tamanho": "FAMILIA", "preco": 64.90 }
+    ],
+    "destaque": false,
+    "ativo": true
+  },
+  {
+    "id": 5,
+    "categoriaId": 1,
+    "nome": "Quatro Queijos",
+    "descricao": "Molho de tomate, mussarela, provolone, parmesão e gorgonzola.",
+    "imagem": "https://images.unsplash.com/photo-1548369937-47519962c11a?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 35.90 },
+      { "tamanho": "MEDIA",   "preco": 45.90 },
+      { "tamanho": "GRANDE",  "preco": 55.90 },
+      { "tamanho": "FAMILIA", "preco": 65.90 }
+    ],
+    "destaque": false,
+    "ativo": true
+  },
+  {
+    "id": 6,
+    "categoriaId": 2,
+    "nome": "Chocolate",
+    "descricao": "Chocolate ao leite derretido, granulado crocante e leite condensado.",
+    "imagem": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 37.90 },
+      { "tamanho": "GRANDE",  "preco": 47.90 },
+      { "tamanho": "FAMILIA", "preco": 57.90 }
+    ],
+    "destaque": true,
+    "ativo": true
+  },
+  {
+    "id": 7,
+    "categoriaId": 2,
+    "nome": "Romeu e Julieta",
+    "descricao": "Mussarela cremosa e goiabada especial em perfeita harmonia.",
+    "imagem": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "MEDIA",   "preco": 35.90 },
+      { "tamanho": "GRANDE",  "preco": 45.90 },
+      { "tamanho": "FAMILIA", "preco": 55.90 }
+    ],
+    "destaque": false,
+    "ativo": true
+  },
+  {
+    "id": 8,
+    "categoriaId": 3,
+    "nome": "Coca-Cola",
+    "descricao": "Refrigerante gelado 350ml.",
+    "imagem": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 6.00 }
+    ],
+    "destaque": false,
+    "ativo": true
+  },
+  {
+    "id": 9,
+    "categoriaId": 3,
+    "nome": "Suco de Laranja",
+    "descricao": "Suco natural de laranja 400ml.",
+    "imagem": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 8.00 }
+    ],
+    "destaque": false,
+    "ativo": true
+  },
+  {
+    "id": 10,
+    "categoriaId": 3,
+    "nome": "Água Mineral",
+    "descricao": "Água mineral sem gás 500ml.",
+    "imagem": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80",
+    "tamanhos": [
+      { "tamanho": "PEQUENA", "preco": 4.00 }
+    ],
+    "destaque": false,
+    "ativo": true
+  }
+]
