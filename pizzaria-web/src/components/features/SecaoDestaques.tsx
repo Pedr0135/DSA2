@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { ChevronRight } from 'lucide-react'
 import type { Produto } from '../../types'
-import { ProdutoCard } from './ProdutoCard'
+import { PizzaCard } from './PizzaCard'
 import { Button } from '../common/Button'
 
 interface Props {
@@ -40,7 +40,7 @@ export function SecaoDestaques({ produtos }: Props) {
       {/* Grid de produtos */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {produtos.map(produto => (
-          <ProdutoCard key={produto.id} produto={produto} />
+          <PizzaCard key={produto.id} produto={produto} />
         ))}
       </div>
 

@@ -1,9 +1,10 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import type { Usuario } from '../types'
 
-// Usuário admin mockado para demonstração
-const ADMIN_MOCK: Usuario = { id: 1, nome: 'Administrador', email: 'admin@pizzaria.com', perfil: 'ADMIN' }
-const CREDENCIAIS = { email: 'admin@pizzaria.com', senha: 'admin123' }
+const USUARIOS_MOCK: (Usuario & { senha: string })[] = [
+  { id: 1, nome: 'Administrador',  email: 'admin@pizzaria.com',  senha: 'admin123',  perfil: 'ADMIN'     },
+  { id: 2, nome: 'Maria Cliente',  email: 'maria@email.com',     senha: 'cliente123', perfil: 'ATENDENTE' },
+]
 
 interface AuthContextType {
   usuario: Usuario | null
@@ -25,11 +26,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   })
 
   const login = async (email: string, senha: string): Promise<boolean> => {
-    // Simula delay de rede
-    await new Promise(r => setTimeout(r, 600))
-    if (email === CREDENCIAIS.email && senha === CREDENCIAIS.senha) {
-      setUsuario(ADMIN_MOCK)
-      sessionStorage.setItem('pizzaria_usuario', JSON.stringify(ADMIN_MOCK))
+    await new Promise(r => setTimeout(r, 800))
+    const encontrado = USUARIOS_MOCK.find(u => u.email === email && u.senha === senha)
+    if (encontrado) {
+      const { senha: _, ...usuario } = encontrado
+      setUsuario(usuario)
+      sessionStorage.setItem('pizzaria_usuario', JSON.stringify(usuario))
       return true
     }
     return false

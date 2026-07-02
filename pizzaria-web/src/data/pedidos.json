@@ -2,83 +2,179 @@
   {
     "id": "PED-001",
     "itens": [
-      {
-        "produto": { "id": 1, "nome": "Margherita" },
-        "tamanho": { "tamanho": "GRANDE", "preco": 49.90 },
-        "quantidade": 1
-      },
-      {
-        "produto": { "id": 8, "nome": "Coca-Cola" },
-        "tamanho": { "tamanho": "PEQUENA", "preco": 6.00 },
-        "quantidade": 2
-      }
+      { "produto": { "id": 1, "nome": "Margherita" },           "tamanho": { "tamanho": "GRANDE",  "preco": 52.90 }, "quantidade": 1 },
+      { "produto": { "id": 0, "nome": "Coca-Cola 2L" },         "tamanho": { "tamanho": "MEDIA",   "preco": 12.00 }, "quantidade": 1 }
     ],
-    "endereco": {
-      "nome": "João Silva",
-      "telefone": "(11) 99999-0001",
-      "logradouro": "Rua das Flores",
-      "numero": "123",
-      "bairro": "Centro",
-      "cidade": "São Paulo",
-      "uf": "SP",
-      "cep": "01310-100",
-      "pagamento": "cartao"
-    },
-    "total": 61.90,
-    "status": "ENTREGUE",
-    "criadoEm": "2024-01-15T18:30:00"
+    "endereco": { "nome": "João Silva",       "telefone": "(11) 98001-0001", "logradouro": "Rua das Flores, 123",    "bairro": "Centro",        "cidade": "São Paulo", "uf": "SP", "cep": "01310-100", "pagamento": "cartao" },
+    "total": 64.90, "status": "ENTREGUE",     "criadoEm": "2025-07-14T18:30:00"
   },
   {
     "id": "PED-002",
     "itens": [
-      {
-        "produto": { "id": 3, "nome": "Frango com Catupiry" },
-        "tamanho": { "tamanho": "FAMILIA", "preco": 63.90 },
-        "quantidade": 1
-      }
+      { "produto": { "id": 3, "nome": "Frango com Catupiry" },  "tamanho": { "tamanho": "FAMILIA", "preco": 66.90 }, "quantidade": 1 }
     ],
-    "endereco": {
-      "nome": "Maria Santos",
-      "telefone": "(11) 99999-0002",
-      "logradouro": "Av. Paulista",
-      "numero": "1000",
-      "bairro": "Bela Vista",
-      "cidade": "São Paulo",
-      "uf": "SP",
-      "cep": "01310-200",
-      "pagamento": "pix"
-    },
-    "total": 63.90,
-    "status": "EM_PREPARO",
-    "criadoEm": "2024-01-15T19:10:00"
+    "endereco": { "nome": "Maria Santos",     "telefone": "(11) 98001-0002", "logradouro": "Av. Paulista, 1000",     "bairro": "Bela Vista",    "cidade": "São Paulo", "uf": "SP", "cep": "01310-200", "pagamento": "pix" },
+    "total": 66.90, "status": "EM_PREPARO",   "criadoEm": "2025-07-14T19:10:00"
   },
   {
     "id": "PED-003",
     "itens": [
-      {
-        "produto": { "id": 2, "nome": "Calabresa" },
-        "tamanho": { "tamanho": "GRANDE", "preco": 51.90 },
-        "quantidade": 2
-      },
-      {
-        "produto": { "id": 9, "nome": "Suco de Laranja" },
-        "tamanho": { "tamanho": "PEQUENA", "preco": 8.00 },
-        "quantidade": 2
-      }
+      { "produto": { "id": 2, "nome": "Calabresa" },            "tamanho": { "tamanho": "GRANDE",  "preco": 54.90 }, "quantidade": 2 },
+      { "produto": { "id": 0, "nome": "Suco de Laranja" },      "tamanho": { "tamanho": "MEDIA",   "preco": 10.00 }, "quantidade": 2 }
     ],
-    "endereco": {
-      "nome": "Carlos Oliveira",
-      "telefone": "(11) 99999-0003",
-      "logradouro": "Rua Augusta",
-      "numero": "500",
-      "bairro": "Consolação",
-      "cidade": "São Paulo",
-      "uf": "SP",
-      "cep": "01305-000",
-      "pagamento": "dinheiro"
-    },
-    "total": 119.80,
-    "status": "RECEBIDO",
-    "criadoEm": "2024-01-15T19:45:00"
+    "endereco": { "nome": "Carlos Oliveira",  "telefone": "(11) 98001-0003", "logradouro": "Rua Augusta, 500",       "bairro": "Consolação",    "cidade": "São Paulo", "uf": "SP", "cep": "01305-000", "pagamento": "dinheiro" },
+    "total": 129.80, "status": "RECEBIDO",    "criadoEm": "2025-07-14T19:45:00"
+  },
+  {
+    "id": "PED-004",
+    "itens": [
+      { "produto": { "id": 8, "nome": "Costela Defumada" },     "tamanho": { "tamanho": "GRANDE",  "preco": 74.90 }, "quantidade": 1 },
+      { "produto": { "id": 5, "nome": "Quatro Queijos" },       "tamanho": { "tamanho": "MEDIA",   "preco": 47.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Ana Ferreira",     "telefone": "(11) 98001-0004", "logradouro": "Rua Oscar Freire, 88",   "bairro": "Jardins",       "cidade": "São Paulo", "uf": "SP", "cep": "01426-001", "pagamento": "cartao" },
+    "total": 122.80, "status": "SAIU_ENTREGA","criadoEm": "2025-07-14T20:05:00"
+  },
+  {
+    "id": "PED-005",
+    "itens": [
+      { "produto": { "id": 23, "nome": "Nutella com Banana" },  "tamanho": { "tamanho": "GRANDE",  "preco": 54.90 }, "quantidade": 1 },
+      { "produto": { "id": 21, "nome": "Chocolate com Morango"},"tamanho": { "tamanho": "MEDIA",   "preco": 42.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Pedro Alves",      "telefone": "(11) 98001-0005", "logradouro": "Al. Santos, 200",        "bairro": "Cerqueira César","cidade": "São Paulo", "uf": "SP", "cep": "01419-000", "pagamento": "pix" },
+    "total": 97.80, "status": "ENTREGUE",     "criadoEm": "2025-07-14T20:18:00"
+  },
+  {
+    "id": "PED-006",
+    "itens": [
+      { "produto": { "id": 9, "nome": "Salmão com Cream Cheese"},"tamanho": { "tamanho": "FAMILIA","preco": 94.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Lucia Ramos",      "telefone": "(11) 98001-0006", "logradouro": "Rua Haddock Lobo, 595",  "bairro": "Cerqueira César","cidade": "São Paulo", "uf": "SP", "cep": "01414-001", "pagamento": "cartao" },
+    "total": 94.90, "status": "CANCELADO",    "criadoEm": "2025-07-14T20:30:00"
+  },
+  {
+    "id": "PED-007",
+    "itens": [
+      { "produto": { "id": 4, "nome": "Portuguesa" },           "tamanho": { "tamanho": "GRANDE",  "preco": 55.90 }, "quantidade": 1 },
+      { "produto": { "id": 6, "nome": "Napolitana" },           "tamanho": { "tamanho": "MEDIA",   "preco": 43.90 }, "quantidade": 1 },
+      { "produto": { "id": 0, "nome": "Água Mineral" },         "tamanho": { "tamanho": "PEQUENA", "preco":  5.00 }, "quantidade": 2 }
+    ],
+    "endereco": { "nome": "Roberto Costa",    "telefone": "(11) 98001-0007", "logradouro": "Rua da Consolação, 1200","bairro": "Consolação",    "cidade": "São Paulo", "uf": "SP", "cep": "01302-907", "pagamento": "dinheiro" },
+    "total": 109.80, "status": "ENTREGUE",    "criadoEm": "2025-07-14T20:50:00"
+  },
+  {
+    "id": "PED-008",
+    "itens": [
+      { "produto": { "id": 10, "nome": "Camarão ao Alho" },     "tamanho": { "tamanho": "GRANDE",  "preco": 82.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Fernanda Lima",    "telefone": "(11) 98001-0008", "logradouro": "Av. Brigadeiro Faria Lima, 3000","bairro": "Itaim Bibi","cidade": "São Paulo", "uf": "SP", "cep": "01452-000", "pagamento": "pix" },
+    "total": 82.90, "status": "EM_PREPARO",   "criadoEm": "2025-07-14T21:02:00"
+  },
+  {
+    "id": "PED-009",
+    "itens": [
+      { "produto": { "id": 16, "nome": "Rúcula com Tomate Seco"},"tamanho": { "tamanho": "GRANDE", "preco": 56.90 }, "quantidade": 1 },
+      { "produto": { "id": 17, "nome": "Cogumelos ao Pesto" },   "tamanho": { "tamanho": "MEDIA",  "preco": 48.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Beatriz Mendes",   "telefone": "(11) 98001-0009", "logradouro": "Rua Pamplona, 145",      "bairro": "Jardim Paulista","cidade": "São Paulo","uf": "SP", "cep": "01405-100", "pagamento": "cartao" },
+    "total": 105.80, "status": "RECEBIDO",    "criadoEm": "2025-07-14T21:15:00"
+  },
+  {
+    "id": "PED-010",
+    "itens": [
+      { "produto": { "id": 13, "nome": "Pepperoni Americano" },  "tamanho": { "tamanho": "FAMILIA","preco": 78.90 }, "quantidade": 1 },
+      { "produto": { "id": 0,  "nome": "Coca-Cola 2L" },         "tamanho": { "tamanho": "MEDIA",  "preco": 12.00 }, "quantidade": 2 }
+    ],
+    "endereco": { "nome": "Thiago Barbosa",   "telefone": "(11) 98001-0010", "logradouro": "Rua Vergueiro, 3185",    "bairro": "Vila Mariana",  "cidade": "São Paulo", "uf": "SP", "cep": "04101-300", "pagamento": "pix" },
+    "total": 102.90, "status": "SAIU_ENTREGA","criadoEm": "2025-07-14T21:28:00"
+  },
+  {
+    "id": "PED-011",
+    "itens": [
+      { "produto": { "id": 11, "nome": "Trufada com Cogumelos" },"tamanho": { "tamanho": "GRANDE", "preco": 77.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Camila Souza",     "telefone": "(11) 98001-0011", "logradouro": "Rua Funchal, 418",       "bairro": "Vila Olímpia",  "cidade": "São Paulo", "uf": "SP", "cep": "04551-060", "pagamento": "cartao" },
+    "total": 77.90, "status": "ENTREGUE",     "criadoEm": "2025-07-14T21:40:00"
+  },
+  {
+    "id": "PED-012",
+    "itens": [
+      { "produto": { "id": 7,  "nome": "Mussarela" },            "tamanho": { "tamanho": "GRANDE", "preco": 49.90 }, "quantidade": 1 },
+      { "produto": { "id": 22, "nome": "Romeu e Julieta" },      "tamanho": { "tamanho": "MEDIA",  "preco": 38.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Diego Martins",    "telefone": "(11) 98001-0012", "logradouro": "Av. Rebouças, 1585",     "bairro": "Pinheiros",     "cidade": "São Paulo", "uf": "SP", "cep": "05401-300", "pagamento": "dinheiro" },
+    "total": 88.80, "status": "CANCELADO",    "criadoEm": "2025-07-14T21:55:00"
+  },
+  {
+    "id": "PED-013",
+    "itens": [
+      { "produto": { "id": 12, "nome": "Filé com Gorgonzola" },  "tamanho": { "tamanho": "FAMILIA","preco": 99.90 }, "quantidade": 1 },
+      { "produto": { "id": 0,  "nome": "Vinho Tinto Taça" },     "tamanho": { "tamanho": "MEDIA",  "preco": 22.00 }, "quantidade": 2 }
+    ],
+    "endereco": { "nome": "Isabela Rocha",    "telefone": "(11) 98001-0013", "logradouro": "Rua Joaquim Floriano, 72","bairro": "Itaim Bibi",   "cidade": "São Paulo", "uf": "SP", "cep": "04534-000", "pagamento": "cartao" },
+    "total": 143.90, "status": "ENTREGUE",    "criadoEm": "2025-07-14T22:10:00"
+  },
+  {
+    "id": "PED-014",
+    "itens": [
+      { "produto": { "id": 15, "nome": "Primavera" },            "tamanho": { "tamanho": "GRANDE", "preco": 53.90 }, "quantidade": 1 },
+      { "produto": { "id": 19, "nome": "Caprese Vegana" },       "tamanho": { "tamanho": "MEDIA",  "preco": 47.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Lucas Pereira",    "telefone": "(11) 98001-0014", "logradouro": "Rua Teodoro Sampaio, 744","bairro": "Pinheiros",    "cidade": "São Paulo", "uf": "SP", "cep": "05406-050", "pagamento": "pix" },
+    "total": 101.80, "status": "EM_PREPARO",  "criadoEm": "2025-07-14T22:22:00"
+  },
+  {
+    "id": "PED-015",
+    "itens": [
+      { "produto": { "id": 14, "nome": "Carne Seca com Abóbora"},"tamanho": { "tamanho": "GRANDE", "preco": 72.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Mariana Gomes",    "telefone": "(11) 98001-0015", "logradouro": "Av. Ibirapuera, 3103",   "bairro": "Moema",         "cidade": "São Paulo", "uf": "SP", "cep": "04029-200", "pagamento": "cartao" },
+    "total": 72.90, "status": "RECEBIDO",     "criadoEm": "2025-07-14T22:35:00"
+  },
+  {
+    "id": "PED-016",
+    "itens": [
+      { "produto": { "id": 1,  "nome": "Margherita" },           "tamanho": { "tamanho": "FAMILIA","preco": 62.90 }, "quantidade": 2 },
+      { "produto": { "id": 0,  "nome": "Coca-Cola 2L" },         "tamanho": { "tamanho": "MEDIA",  "preco": 12.00 }, "quantidade": 3 }
+    ],
+    "endereco": { "nome": "Rafael Nunes",     "telefone": "(11) 98001-0016", "logradouro": "Rua Domingos de Morais, 2187","bairro": "Vila Mariana","cidade": "São Paulo","uf": "SP", "cep": "04010-905", "pagamento": "dinheiro" },
+    "total": 161.80, "status": "SAIU_ENTREGA","criadoEm": "2025-07-14T22:48:00"
+  },
+  {
+    "id": "PED-017",
+    "itens": [
+      { "produto": { "id": 24, "nome": "Prestígio" },            "tamanho": { "tamanho": "GRANDE", "preco": 50.90 }, "quantidade": 1 },
+      { "produto": { "id": 25, "nome": "Doce de Leite com Nozes"},"tamanho": { "tamanho": "MEDIA", "preco": 41.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Juliana Castro",   "telefone": "(11) 98001-0017", "logradouro": "Rua Leopoldo Couto Magalhães Jr., 110","bairro": "Itaim Bibi","cidade": "São Paulo","uf": "SP", "cep": "04542-000", "pagamento": "pix" },
+    "total": 92.80, "status": "ENTREGUE",     "criadoEm": "2025-07-14T23:00:00"
+  },
+  {
+    "id": "PED-018",
+    "itens": [
+      { "produto": { "id": 20, "nome": "Espinafre com Ricota" }, "tamanho": { "tamanho": "GRANDE", "preco": 55.90 }, "quantidade": 1 },
+      { "produto": { "id": 18, "nome": "Berinjela com Parmesão"},"tamanho": { "tamanho": "MEDIA",  "preco": 44.90 }, "quantidade": 1 }
+    ],
+    "endereco": { "nome": "Gustavo Lima",     "telefone": "(11) 98001-0018", "logradouro": "Rua Bela Cintra, 986",    "bairro": "Consolação",    "cidade": "São Paulo", "uf": "SP", "cep": "01415-002", "pagamento": "cartao" },
+    "total": 100.80, "status": "CANCELADO",   "criadoEm": "2025-07-14T23:12:00"
+  },
+  {
+    "id": "PED-019",
+    "itens": [
+      { "produto": { "id": 5,  "nome": "Quatro Queijos" },       "tamanho": { "tamanho": "FAMILIA","preco": 67.90 }, "quantidade": 1 },
+      { "produto": { "id": 2,  "nome": "Calabresa" },            "tamanho": { "tamanho": "GRANDE", "preco": 54.90 }, "quantidade": 1 },
+      { "produto": { "id": 0,  "nome": "Suco de Uva" },          "tamanho": { "tamanho": "MEDIA",  "preco": 10.00 }, "quantidade": 2 }
+    ],
+    "endereco": { "nome": "Patrícia Vieira",  "telefone": "(11) 98001-0019", "logradouro": "Rua Fradique Coutinho, 50","bairro": "Pinheiros",    "cidade": "São Paulo", "uf": "SP", "cep": "05416-010", "pagamento": "pix" },
+    "total": 142.80, "status": "EM_PREPARO",  "criadoEm": "2025-07-14T23:25:00"
+  },
+  {
+    "id": "PED-020",
+    "itens": [
+      { "produto": { "id": 9,  "nome": "Salmão com Cream Cheese"},"tamanho": { "tamanho": "GRANDE","preco": 79.90 }, "quantidade": 1 },
+      { "produto": { "id": 11, "nome": "Trufada com Cogumelos" }, "tamanho": { "tamanho": "MEDIA", "preco": 62.90 }, "quantidade": 1 },
+      { "produto": { "id": 0,  "nome": "Água com Gás" },          "tamanho": { "tamanho": "PEQUENA","preco": 6.00 }, "quantidade": 2 }
+    ],
+    "endereco": { "nome": "Eduardo Pinto",    "telefone": "(11) 98001-0020", "logradouro": "Av. Europa, 484",         "bairro": "Jardim Europa", "cidade": "São Paulo", "uf": "SP", "cep": "01449-000", "pagamento": "cartao" },
+    "total": 154.80, "status": "RECEBIDO",    "criadoEm": "2025-07-14T23:40:00"
   }
 ]

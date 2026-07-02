@@ -24,7 +24,7 @@ export function Header() {
         </Link>
 
         {/* Navegação desktop */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav aria-label="Navegação principal" className="hidden md:flex items-center gap-6">
           {links.map(link => (
             <NavLink
               key={link.to}
@@ -57,10 +57,11 @@ export function Header() {
             )}
           </button>
 
-          {/* Menu mobile */}
+        {/* Menu mobile */}
           <button
             onClick={() => setMenuAberto(v => !v)}
-            aria-label="Menu"
+            aria-label={menuAberto ? 'Fechar menu' : 'Abrir menu'}
+            aria-expanded={menuAberto}
             className="md:hidden p-2 text-brand-gray hover:text-primary transition-colors duration-200"
           >
             {menuAberto ? <X size={24} /> : <Menu size={24} />}
@@ -70,7 +71,10 @@ export function Header() {
 
       {/* Menu mobile expandido */}
       {menuAberto && (
-        <nav className="md:hidden bg-white border-t border-gray-100 px-4 py-3 flex flex-col gap-3">
+        <nav
+          aria-label="Menu mobile"
+          className="md:hidden bg-white border-t border-gray-100 px-4 py-3 flex flex-col gap-3"
+        >
           {links.map(link => (
             <NavLink
               key={link.to}

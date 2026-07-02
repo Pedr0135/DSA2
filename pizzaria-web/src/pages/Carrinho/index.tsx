@@ -45,7 +45,7 @@ interface ItemRowProps {
 }
 
 function ItemRow({
-  nome, imagem, tamanho, preco, quantidade,
+  produtoId, nome, imagem, tamanho, preco, quantidade,
   onAumentar, onDiminuir, onRemover,
 }: ItemRowProps) {
   const [confirmandoRemocao, setConfirmandoRemocao] = useState(false)
@@ -62,7 +62,7 @@ function ItemRow({
   return (
     <div className="flex gap-4 p-4 bg-white rounded-2xl border border-orange-100 shadow-sm">
       {/* Imagem */}
-      <Link to={`/produto/${nome}`} tabIndex={-1}>
+      <Link to={`/produto/${produtoId}`} tabIndex={-1}>
         <img
           src={imagem}
           alt={nome}
